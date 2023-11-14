@@ -1,10 +1,12 @@
+#Importing the random module
+import random
+
 #Number Guessing Game
 print("\nWelcome to Number Guessing Game!")
+
 #Display the instruction
 print("The computer will randomly generate a secret number between 1 to 100. Your objective is to guess this number. Input your guesses, and after each attempt, the computer will provide feedback, indicating whether your guess is too high, too low, or correct. Continue refining your guesses based on this feedback until you successfully uncover the secret number. Keep in mind the defined range and use the provided hints to narrow down your choices. Happy guessing!\n")
 
-#Importing the random module
-import random
 secret_number = random.randint(1,100)
 guesses_taken = []
 
